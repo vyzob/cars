@@ -36,3 +36,9 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Čas
+
+Vše kromě endpointu 6,5h, na tom endpointu jsem se zasekal. Dlouho mi trvalo zjistit, že byly ve Sveltekitu nějaké zásadní změny a že články, podle kterých jsem se řídil, už nejsou aktuální(5h). Nechal jsem si to nakonec, měl jsem tím začít.
+
+Note: Absolutní cesty k API v src/carStore.ts jsou napsány staticky, pokud Ti to poběží na jiném portu, je to tam třeba přepsat.

@@ -57,7 +57,6 @@ class CarStore {
         let cars = await data;
         
         this.carsStore.update(() => {
-            console.log('updated store', cars);
             return cars;
         })
 
@@ -76,7 +75,6 @@ class CarStore {
             },
         })
         .then(res => {
-            console.log(res.json, 'getCars');
             this.updateStore(res.json());
             }
         )

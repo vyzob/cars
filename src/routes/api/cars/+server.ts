@@ -18,7 +18,7 @@ export const GET: RequestHandler = (event) => {
 export const POST: RequestHandler = async(event) => {
 	const res = await event.request.json();
     cars.push(res);
-    console.log('POST event', res, cars);
+
 	return json(cars);
 }
 
